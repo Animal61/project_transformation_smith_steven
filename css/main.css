@@ -60,7 +60,7 @@ a:hover {
 }
 /* Logo */
 #logo {
-    margin: 0;
+    margin-bottom: 25px;
     padding: 0;
     color: #FFFFFF;
 }
@@ -266,4 +266,25 @@ a:hover {
 }
 #banner img {
     width: 100%;
+}
+/* Media Queries */
+@media all and (min-width: 765px) {
+    #logo {
+        width: calc(100% / 3);
+        float: left;
+        margin-bottom: 0;
+    }
+    nav {
+        width: calc(100% / 3 * 2);
+        float: right;
+        clear: none;
+    }
+    #menu ul {
+        float: right;
+    }
+    #content {
+        width: calc(100% / 3 *2);
+        float: right;
+    }
+
 }
