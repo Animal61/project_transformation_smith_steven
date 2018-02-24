@@ -170,7 +170,6 @@ a:hover {
 }
 .post .entry {
     padding: 0px 0px 40px 0px;
-    text-align: justify;
 }
 .links {
     padding-top: 20px;
@@ -238,11 +237,6 @@ a:hover {
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
-}
-#sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
-    text-align: justify;
 }
 #sidebar a {
     border: none;
