@@ -125,7 +125,7 @@ a:hover {
 /* Page */
 #page {
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 1em;
 }
 /* Content */
 #content {
