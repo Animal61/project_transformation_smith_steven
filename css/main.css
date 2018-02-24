@@ -60,7 +60,6 @@ a:hover {
 }
 /* Logo */
 #logo {
-    margin-bottom: 25px;
     padding: 0;
     color: #FFFFFF;
 }
@@ -272,7 +271,7 @@ a:hover {
     #logo {
         width: calc(100% / 3);
         float: left;
-        margin-bottom: 0;
+        margin-bottom: 25px;
     }
     nav {
         width: calc(100% / 3 * 2);
