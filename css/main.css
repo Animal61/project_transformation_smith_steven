@@ -60,7 +60,7 @@ a:hover {
 }
 /* Logo */
 #logo {
-    padding: 0;
+    padding: 0 10px;
     color: #FFFFFF;
 }
 #logo h1, #logo p {
@@ -93,19 +93,16 @@ a:hover {
 }
 /* Menu */
 #menu {
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 #menu ul {
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 16px 0px 0px 0px;
     list-style: none;
     line-height: normal;
 }
-#menu li {
-    float: left;
-}
+
 #menu a {
     display: block;
     line-height: 100px;
@@ -278,8 +275,16 @@ a:hover {
         float: right;
         clear: none;
     }
+    #menu {
+        height: 90px;
+        margin: 0 auto;
+        padding: 0;
+    }
     #menu ul {
         float: right;
+    }
+    #menu li {
+        float: left;
     }
     #content {
         width: calc(100% / 3 *2);
